@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol id="list" type="i">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>PYTHON</li>
+        <li>DEPLOYMENT</li>
+        </ol>
+    </ol>
+    <img src="https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Coding image" class="tit"/>
+    <table border="3" id ="table">
+        <tr id="tr">
+            <th>NAME</th>
+            <th>ADDRESS</th>
+            <th>MOBILE</th>
+            <th>EMAIL</th>
+        </tr>
+        <tr id="td">
+            <td>Vad Mwange</td>
+            <td>123 Main St</td>
+            <td>723-306-307</td>
+            <td>vadmwange@example.com</td>
+        </tr>
+        <tr id="td">
+            <td>Faith Davis</td>
+            <td>456 Elm St</td>
+            <td>703-344-197</td>
+            <td>davisfaith@example.com</td>
+        </tr>
+        <tr id="td">
+            <td>Hugo Smith</td>
+            <td>789 Oak St</td>
+            <td>704-350-442</td>
+            <td>hugosmith@example.com</td>
+        </tr>
+        <tr id="td">
+            <td>Lula Johnson</td>
+            <td>321 Pine St</td>
+            <td>706-067-248</td>
+            <td>lulajohnson@example.com</td>
+        </tr>
+        <tr id="td">
+            <td>Bornice Brown</td>
+            <td>901 Maple St</td>
+            <td>718-570-458</td>
+            <td>bornicebrown@example.com</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <form>
+        <label for="Name" >NAME</label>
+        <input type="text" id="Name" name="Name" placeholder="Enter your name" required>
+        <br>
+        <br>
+        <label for="Email" >EMAIL</label>
+        <input type="email" id="Email" name="Email" placeholder="Enter your email" required>
+        <br>
+        <br>
+        <label for="Password" >PASSWORD</label>
+        <input type="password" id="Password" name="Password" placeholder="Enter your password" required minlength="8">
+        <br>
+        <br>
+        <label for="Date" >DOB</label>
+        <input type="date" id="Date" name="Date" placeholder="Enter your date of birth" required>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select Country</option>
+            <option value="KENYA">Kenya</option>
+            <option value="UGANDA">Uganda</option>
+            <option value="TANZANIA">Tanzania</option>
+            <option value="SOUTH AFRICA">South Africa</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

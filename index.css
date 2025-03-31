@@ -1,0 +1,37 @@
+body{
+    background-color: blue;
+
+}
+#list{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.tit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+form{
+    padding-left: 80px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#tr{
+    border-style: dashed;
+    background-color: red;
+}
+#td{
+    background-color: aqua;
+}
